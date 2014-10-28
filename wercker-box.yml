@@ -1,6 +1,6 @@
 name: arduino
 version: 0.0.1
-inherits: wercker/python
+inherits: wercker/python@1.1.0
 type: main 
 platform: ubuntu@12.04
 description: wercker box for building Arduino projects using inotool 
