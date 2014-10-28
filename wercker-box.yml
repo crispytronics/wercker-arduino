@@ -5,8 +5,8 @@ type: main
 platform: ubuntu@12.04
 description: wercker box for building Arduino projects using inotool 
 keywords:
-      - arduino
-      - inotool
+  - arduino
+  - inotool
 packages:
   script: |
     sudo apt-get update -y
