@@ -1,0 +1,14 @@
+name: arduino
+version: 0.0.1
+inherits: wercker/python
+type: main 
+platform: ubuntu@12.04
+description: wercker box for building Arduino projects using inotool 
+keywords:
+      - arduino
+      - inotool
+packages:
+  script: |
+    sudo apt-get update -y
+    sudo apt-get install arduino -y
+    sudo pip install ino 
